@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    background: radial-gradient(circle, rgb(6,118,251) 0%, rgba(133, 163, 168, 0.785) 100%);
+}
+.player{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgb(81, 81, 81);
+}
+.imgPlace{
+    height: 180px;
+    width: 180px;
+    background: url(image/imageEmpty.jpg) no-repeat;
+    background-size: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px rgb(94, 94, 94);
+}
+.imgSector{
+    padding: 20px;
+}
+.titleTrack{
+    height: 20px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.authorTrack{
+    height: 20px;
+    font-size: 18px;
+    padding: 5px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.wrapper{
+    background-color: rgba(233, 233, 233, 0.785);
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.62);
+}
+.elementMiddle{
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+}
+.elementBottom{
+    text-align: center;
+}
+.timeSlider{
+    width: 80%;
+}
+.elementTop{
+    text-align: center;
+}
+.playlist{
+    background-color:rgba(233, 233, 233, 0.785);
+    height: 260px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.62);
+}
+.titlePlaylist{
+    padding: 5px;
+    text-align: center;
+    background-color:rgba(222, 222, 222, 0.785);
+    border-radius: 5px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.62);
+}
+.playTrack{
+    background: url(icons/play-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.playTrack:active, .stopTrack:active, .nextTrack:active, .previousTrack:active, .back:active, .forward:active{  
+    border-radius: 60px;
+    background-color: rgb(188, 188, 188);
+}
+.stopTrack{
+    background: url(icons/stop-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.nextTrack{
+    background: url(icons/next-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.previousTrack{
+    background: url(icons/previous-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.back{
+    background: url(icons/back-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.forward{
+    background: url(icons/forward-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+.mute{
+    background: url(icons/speaker-unmute-icon.png) no-repeat;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.loopTrack{
+    background: url(icons/loop-icon.png) no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.loopTrack:active{
+    border-radius: 20px;
+    background-color:rgba(168, 168, 168, 0.785);
+}
+.btn-track-1, .btn-track-2, .btn-track-3, .btn-track-4, .btn-track-5{
+    margin-left: 10px;
+    background: url(icons/play-icon.png) no-repeat;
+    background-size: 25px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.titleTrack1, .titleTrack2, .titleTrack3, .titleTrack4, .titleTrack5{
+    font-size:18px;
+    height: 40px;
+    padding: 2px 0px 0px 0px;
+}
+.current-Time{
+    font-size: 18px;
+}
+.audio-Duration{
+    font-size: 18px;
+}

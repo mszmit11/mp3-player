@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="wrapper">
+            <div class="titleTrack">Title</div>
+            <div class="authorTrack">Author</div>
+        </div>
+        <div class="imgSector">
+            <div class="imgPlace"></div>
+        </div>
+        <div class="buttons">
+            <div class="elementTop">
+                <div class="timers">
+                    <span class="current-Time">0:00 /</span>
+                    <span class="audio-Duration">0:00</span>
+                </div>
+                <div>
+                    <input class="timeSlider" type="range" min="1" value="0" max="1">
+                </div>
+            </div>
+            <div class="elementMiddle">
+                <button class="back"></button>
+                <button class="previousTrack"></button>
+                <button class="playTrack"></button>
+                <button class="stopTrack"></button>
+                <button class="nextTrack"></button>
+                <button class="forward"></button>
+                <button class="loopTrack"></button>
+                </div>
+                <div class="elementBottom">
+                    <button class="mute"></button>
+                    <input  type="range" class="volume" min="0" max="1" value="1" step="0.01">
+                </div>
+                <div class="playlist">
+                    <p class="titlePlaylist">Playlist</p>
+                    <button class="btn-track-1"></button>
+                    <div class="titleTrack1"></div>
+                    <button class="btn-track-2"></button>
+                    <div class="titleTrack2"></div>
+                    <button class="btn-track-3"></button>
+                    <div class="titleTrack3"></div>
+                    <button class="btn-track-4"></button>
+                    <div class="titleTrack4"></div>
+                    <button class="btn-track-5"></button>
+                    <div class="titleTrack5"></div>
+                </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
