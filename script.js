@@ -33,31 +33,31 @@ const element3 = document.querySelector('.mute')
 // tag track
 let track = [
     {
-        music : 'audio1.mp3',
+        music : 'audio/audio1.mp3',
         img : 'img0.jpg',
         artist : 'Robbie Williams',
         title : 'Feel'
     },
     {
-        music : 'audio2.mp3',
+        music : 'audio/audio2.mp3',
         img : 'image/img1.jpg',
         artist : 'Lana Del Rey',
         title : 'Blue Jeans'
     },
     {
-        music : 'audio3.mp3',
+        music : 'audio/audio3.mp3',
         img : 'image/img2.jpg',
         artist : 'Cannons',
         title : 'Hurricane'
     },
     {
-        music : 'audio4.mp3',
+        music : 'audio/audio4.mp3',
         img : 'image/img3.jpg',
         artist : 'The Cranberries',
         title : 'Zombie'
     },
     {
-        music : 'audio5.mp3',
+        music : 'audio/audio5.mp3',
         img : 'image/img4.jpg',
         artist : 'Red Hot Chili Peppers',
         title : 'Under The Bridge'
@@ -115,6 +115,8 @@ function downIndex(){
     audio.volume = volumeRange.value
     element.style.background = `url(image/img${indexTrack}.jpg) no-repeat`;
 }
+
+// functions playlist
 function playTrackPlaylist1() {
     indexTrack = 0
     count = 1
