@@ -260,13 +260,18 @@ function playPause(){
             element.style.background = `url(image/img${indexTrack}.jpg) no-repeat`;
         }
         
-    }, 1001);
+    }, 1000);
 
 // stop button
 function stop(){
     audio.pause()
     audio.currentTime = 0
     slider_time.value = 0
+    btnPlay.style.background = `url(icons/play-icon.png) no-repeat`
+    btnPlay.style.backgroundSize = `40px`
+    btnPlay.style.height = `40px`
+    btnPlay.style.width = `40px`
+    btnPlay.style.border = `none`
 }
 
 // loop button
